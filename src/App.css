@@ -1,0 +1,134 @@
+body {
+  background-color: rgb(195, 203, 206);
+  color: black;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.moleGameWrapper {
+  font-family: 'Montserrat',  sans-serif;
+  margin: 24px;
+}
+
+.moleGame {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.informationBoard {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  gap: 38px;
+}
+.informationBoard > div {
+  height: 56px;
+  font-weight: 800;
+}
+
+.playingBoard {
+  margin-right: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 38px;
+}
+
+.arrayRowOfButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  margin-right: 3px;
+}
+
+.button_game {
+  font-family: 'Montserrat',  sans-serif;
+  width: 163px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 31px;
+  border-radius: 8px;
+  background-color: #23213D;
+  color: #fff;
+  border-color: #23213D;
+}
+
+.button_game_highlighted {
+  font-family: 'Montserrat',  sans-serif;
+  width: 163px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 31px;
+  border-radius: 8px;
+  background-color: #FE3756;
+  color: #fff;
+  border-color: #FE3756;
+}
+
+.div_gray {
+  font-family: 'Montserrat',  sans-serif;
+  width: 163px;
+  height: 56px;
+  font-size: 18px;
+  line-height: 31px;
+  border-radius: 8px;
+  background-color: #EBEBEB;
+  color: #000000;
+  border-color: #EBEBEB;
+  -webkit-box-shadow: 6px 7px 20px -4px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 6px 7px 20px -4px rgba(66, 68, 90, 1);
+  box-shadow: 6px 7px 20px -4px rgba(66, 68, 90, 1);
+}
+
+
+
+.div-of-boxes {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.div-of-boxes-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  width: 532px
+}
+
+.screen-two-box {
+  width: 100px;
+  height: 100px;
+  background: #EBEBEB;
+  border-radius: 8px;
+}
+
+.screen-two-box > :first-child {
+  margin-top: 16px;
+  margin-left: 4px;
+}
+
+.screen-two-box-correct {
+  width: 100px;
+  height: 100px;
+  background: #379c00;
+  border-radius: 8px;
+}
+
+.screen-two-box-correct > :first-child {
+  margin-top: 16px;
+  margin-left: 4px;
+}
+
+.screen-two-box-incorrect {
+  width: 100px;
+  height: 100px;
+  background: #cc0000;
+  border-radius: 8px;
+}
