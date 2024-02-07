@@ -203,9 +203,9 @@ export const HitTheMoleGameScreenTwo = ({
       <div className="moleGame">
         <div>
           <div className="informationBoard">
-            <div>CZAS DO KOŃCA</div>
-            <div>WYNIK</div>
-            <div>PRZYCISKI STERUJĄCE</div>
+            <div>REMAINING TIME</div>
+            <div>SCORE</div>
+            <div>CONTROL BUTTONS</div>
           </div>
         </div>
         <div className="playingBoard">

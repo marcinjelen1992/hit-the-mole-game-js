@@ -39,12 +39,12 @@ function App() {
   );
 
   const [score, setScore] = useState(false);
-  const congratulationsString = "Gratulacje! Twój wynik to ";
+  const congratulationsString = "Congratulations! Your score is ";
   return (
     <div className="moleGameWrapper">
       <h2>
-        Gra polegająca na podążaniu za krecikiem i trafieniu na kwadrat, w
-        którym się pojawił.
+        The goal is to follow the mole and click the box inside which the mole
+        appears.
       </h2>
       <strong>
         {!screenSwitch && score ? congratulationsString + score : ""}

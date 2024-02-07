@@ -12,17 +12,17 @@ export const HitTheMoleGameScreenOne = ({
   };
   const DEFAULT_MOLE_GAME_TIME = [
     {
-      time: "1 minuta",
+      time: "1 minute",
 
       isHighlightedTime: false,
     },
     {
-      time: "2 minuty",
+      time: "2 minutes",
 
       isHighlightedTime: false,
     },
     {
-      time: "3 minuty",
+      time: "3 minutes",
 
       isHighlightedTime: false,
     },
@@ -32,17 +32,17 @@ export const HitTheMoleGameScreenOne = ({
 
   const DEFAULT_MOLE_GAME_MOLE = [
     {
-      mole: "1 kret",
+      mole: "1 mole",
 
       isHighlightedMole: false,
     },
     {
-      mole: "2 krety",
+      mole: "2 moles",
 
       isHighlightedMole: false,
     },
     {
-      mole: "3 krety",
+      mole: "3 moles",
 
       isHighlightedMole: false,
     },
@@ -97,9 +97,9 @@ export const HitTheMoleGameScreenOne = ({
       <div className="moleGame">
         <div>
           <div className="informationBoard">
-            <div>CZAS GRY</div>
-            <div>LICZBA KRETÓW</div>
-            <div>PRZYCISKI STERUJĄCE</div>
+            <div>SET TIME</div>
+            <div>SET NUMBER OF MOLES</div>
+            <div>CONTROL BUTTONS</div>
           </div>
         </div>
         <div className="playingBoard">

@@ -13,33 +13,33 @@ export const SettingsCatcher = ({ input1, input2 }) => {
     );
     const concatenatedMap = inputOneBooleanMap.concat(inputTwoBooleanMap);
     if (concatenatedMap[0] === true && concatenatedMap[3] === true) {
-      return "Zaznaczono 1 minutę i 1 kreta";
+      return "Your choice is 1 minute and 1 mole";
     }
     if (concatenatedMap[0] === true && concatenatedMap[4] === true) {
-      return "Zaznaczono 1 minutę i 2 krety";
+      return "Your choice is 1 minute and 2 moles";
     }
     if (concatenatedMap[0] === true && concatenatedMap[5] === true) {
-      return "Zaznaczono 1 minutę i 3 krety";
+      return "Your choice is 1 minute and 3 moles";
     }
     if (concatenatedMap[1] === true && concatenatedMap[3] === true) {
-      return "Zaznaczono 2 minuty i 1 kreta";
+      return "Your choice is 2 minutes and 1 mole";
     }
     if (concatenatedMap[1] === true && concatenatedMap[4] === true) {
-      return "Zaznaczono 2 minuty i 2 krety";
+      return "Your choice is 2 minutes and 2 moles";
     }
     if (concatenatedMap[1] === true && concatenatedMap[5] === true) {
-      return "Zaznaczono 2 minuty i 3 krety";
+      return "Your choice is 2 minutes and 3 moles";
     }
     if (concatenatedMap[2] === true && concatenatedMap[3] === true) {
-      return "Zaznaczono 3 minuty i 1 kreta";
+      return "Your choice is 3 minutes and 1 mole";
     }
     if (concatenatedMap[2] === true && concatenatedMap[4] === true) {
-      return "Zaznaczono 3 minuty i 2 krety";
+      return "Your choice is 3 minutes and 2 moles";
     }
     if (concatenatedMap[2] === true && concatenatedMap[5] === true) {
-      return "Zaznaczono 3 minuty i 3 krety";
+      return "Your choice is 3 minutes and 3 moles";
     } else {
-      return "Nie zaznaczono obu opcji";
+      return "Time or mole number setting isn't selected";
     }
   }
 
